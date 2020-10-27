@@ -1,5 +1,7 @@
 $padding: 16px;
 
+@import "colors";
+
 @mixin box-shadow-styling ($property) {
     -webkit-box-shadow: $property;
     -moz-box-shadow: $property;
@@ -8,7 +10,6 @@ $padding: 16px;
 
 body {
     font: 100% "Space Mono", monospace;
-    color: #2748b3;
     margin: 0px;
     padding: 0px;
     background-color: #000;
@@ -61,16 +62,17 @@ article {
         padding: $padding;
         display: block;
         white-space: pre-wrap;
-    }
 
-    pre.before {
-        float: left;
-        width: 40%;
-    }
 
-    pre.after {
-        float: right;
-        width: 40%;
+        .before {
+            float: left;
+            width: 40%;
+        }
+
+        .after {
+            float: right;
+            width: 40%;
+        }
     }
 }
 
