@@ -11,6 +11,7 @@
 
 .blue {
   color: #6b8eff;
+  background-color: aquamarine;
 }
 
 .blue button {
@@ -22,6 +23,7 @@
 }
 
 .red {
+  background-color: #f8d5f0;
   color: #8e1d41;
 }
 
